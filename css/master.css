@@ -1,3 +1,18 @@
 .navbar-brand img {
   height: 100%;
 }
+
+.navbar-default .navbar-nav>li>a {
+  color: #031b4e; /*dark blue*/
+}
+
+.navbar-nav {
+  margin-left: 80px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding-left: 5px;
+    padding-right: 10px;
+}
