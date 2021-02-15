@@ -2,6 +2,9 @@
   height: 100%;
 }
 
+.navbar {
+  margin-bottom: 0;
+}
 .navbar-default .navbar-nav>li>a {
   color: #031b4e; /*dark blue*/
 }
@@ -22,7 +25,7 @@
   color: #006AFF!important; /*blue sign up*/
   border: 2px solid #006AFF; /*blue sign up*/
   border-radius: 7px;
-  padding: 8px 10px;
+  padding: 0px 0px;
 }
 
 
@@ -30,4 +33,22 @@
   background-image: url("../img/bg-sea.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+#jumbotron h1 {
+  margin-top: 60px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+@media all and (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+  }
 }
