@@ -19,12 +19,15 @@
 
 /*non riesco a mettere il colore del font blue sign up*/
 .my-btn-default {
-  color: #006AFF; /*blue sign up*/
+  color: #006AFF!important; /*blue sign up*/
   border: 2px solid #006AFF; /*blue sign up*/
   border-radius: 7px;
   padding: 8px 10px;
 }
 
+
 #jumbotron {
-  background-image: url("/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-image: url("../img/bg-sea.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
