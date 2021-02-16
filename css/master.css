@@ -86,3 +86,34 @@ form {
 .form-group {
     margin-bottom: 0px;
 }
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.my-btn-create {
+  background-color: #579AFF!important; /*blue light*/
+  color: #fff;
+  border: 2px solid #579AFF; /*blue light*/
+  border-radius: 7px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.my-btn-google {
+  color: #626262;
+  border: 2px solid #626262;
+  box-shadow: 2px;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.my-btn-google img {
+  float: left;
+  height: 20px;
+}
+
+.card p {
+  margin-top: 5px!important;
+  font-size: 15px!important;
+}
