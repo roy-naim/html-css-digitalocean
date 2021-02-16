@@ -117,3 +117,23 @@ form {
   margin-top: 5px!important;
   font-size: 15px!important;
 }
+
+#logos {
+  background-color: #F3F5F9; /*light grey*/
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#logos h5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  color: #6F7B97; /*grey dark text*/
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  height: 100%;
+}
