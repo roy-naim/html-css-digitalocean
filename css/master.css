@@ -235,3 +235,46 @@ form {
   background-image: linear-gradient(#0048C5, #00209A);
   padding: 50px;
 }
+
+.my-list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  border-bottom: 1px solid #fff;
+  vertical-align: middle;
+}
+
+.my-list-group-item>.my-badge-right {
+  float: right;
+}
+
+.my-badge-right {
+    display: inline-block;
+    min-width: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.my-list-group-item>.my-badge-left {
+  float: left;
+}
+
+.my-badge-left {
+    display: inline-block;
+    min-width: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 10px;
+}
