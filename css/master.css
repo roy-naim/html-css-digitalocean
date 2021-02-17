@@ -57,6 +57,10 @@ main {
   color: #006AFF;  /*blue sign up*/
 }
 
+.bg-blue {
+  background-color: #006AFF;  /*blue sign up*/
+}
+
 .text-blue-dark {
   color: #031b4e; /*dark blue*/
 }
@@ -179,4 +183,47 @@ form {
 .remove-marker li {
   border-left: 1px solid #6F7B97; /*grey dark text*/
   padding: 5px 5px;
+}
+
+.image-slide {
+  background-color: #F3F5F9; /*light grey*/
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.box-slide {
+  margin-bottom: 15px;
+}
+.box-slide img {
+  width: 80%;
+}
+
+.box-slide a {
+  padding: 0 20px;
+  font-size: 40px;
+}
+
+.circle-list {
+  padding-left: 0!important;
+}
+
+.circle-list .small-circle {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #006AFF;  /*blue sign up*/
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.features {
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.features h2 {
+  margin-bottom: 30px;
+}
+
+.features p {
+  color: #6F7B97; /*grey dark text*/
 }
