@@ -20,7 +20,6 @@
     padding-right: 10px;
 }
 
-/*non riesco a mettere il colore del font blue sign up*/
 .my-btn-default {
   color: #006AFF!important; /*blue sign up*/
   border: 2px solid #006AFF; /*blue sign up*/
@@ -121,7 +120,7 @@ form {
 #logos {
   background-color: #F3F5F9; /*light grey*/
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 }
 
 #logos h5 {
@@ -132,8 +131,19 @@ form {
 
 .logo {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .logo img {
   height: 100%;
+}
+
+.small-link a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.small-link a:hover,
+.small-link a:active {
+  text-decoration: none;
 }
