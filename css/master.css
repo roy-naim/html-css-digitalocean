@@ -27,6 +27,9 @@
   padding: 0px 0px;
 }
 
+main {
+  font-family: 'Inter', sans-serif;
+}
 
 #jumbotron {
   background-image: url("../img/bg-sea.svg");
@@ -86,8 +89,8 @@ form {
     margin-bottom: 0px;
 }
 
-.mt-15 {
-  margin-top: 15px;
+.mt-20 {
+  margin-top: 20px;
 }
 
 .my-btn-create {
@@ -117,13 +120,13 @@ form {
   font-size: 15px!important;
 }
 
-#logos {
+.logos {
   background-color: #F3F5F9; /*light grey*/
   padding-top: 20px;
   padding-bottom: 25px;
 }
 
-#logos h5 {
+.logos h5 {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   color: #6F7B97; /*grey dark text*/
@@ -146,4 +149,34 @@ form {
 .small-link a:hover,
 .small-link a:active {
   text-decoration: none;
+}
+
+.deploy {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.deploy p {
+  color: #6F7B97; /*grey dark text*/
+}
+
+.paragraph-main {
+  font-size: 20px;
+  color: #6F7B97; /*grey dark text*/
+  margin-bottom: 55px;
+}
+
+.remove-marker {
+  text-align: left;
+  color: #6F7B97; /*grey dark text*/
+  font-size: 18px;
+  font-weight: 500;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
+
+.remove-marker li {
+  border-left: 1px solid #6F7B97; /*grey dark text*/
+  padding: 5px 5px;
 }
