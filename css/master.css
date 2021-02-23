@@ -246,16 +246,28 @@ form {
   border-bottom: 1px solid #fff;
 }
 
-.rocket-slide {
+.rocker-slide {
   margin: 60px 0;
-}
-.rocket-slide img {
-  width: 80%;
+  display: inline-block;
 }
 
-.rocket-slide a {
+.rocker-slide a {
   padding: 0 20px;
   font-size: 40px;
+}
+
+.rockerbox {
+  background-color: #fff;
+  color: #5C6A88; /*grey text*/
+  padding: 50px 0;
+}
+
+.rockerbox img {
+  height: 100%;
+}
+
+.rockerbox a {
+  font-size: 15px;
 }
 
 .my-btn-create-bis {
@@ -264,4 +276,70 @@ form {
     border: 2px solid #fff;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+footer {
+  background-color: #031C4E; /*dark blue footer*/
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.logo-dg-small {
+  margin-top: 60px;
+}
+
+.logo-dg-small img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.logo-dg-small p {
+  margin: 0;
+}
+
+.less-opacity {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.logos-list {
+  text-align: left;
+  color: #6F7B97;
+  font-size: 18px;
+  font-weight: 500;
+  list-style-type: none;
+  margin: 15px 0;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+.logos-list li {
+  display: inline;
+  vertical-align: middle;
+}
+
+.footer-list {
+  margin-top: 60px;
+}
+
+.list {
+  display: inline-table;
+  padding-right: 70px;
+}
+
+.list h4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.list ul li {
+  margin-left: 0;
+  list-style: none;
+}
+
+.text-list {
+  margin: 0;
+  padding: 0;
+}
+
+.text-list li {
+  margin: 5px 0;
 }
