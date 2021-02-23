@@ -248,7 +248,7 @@ form {
 
 .rocker-slide {
   margin: 60px 0;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .rocker-slide a {
